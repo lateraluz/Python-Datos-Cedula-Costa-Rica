@@ -1,11 +1,11 @@
 # Decodificar-Cedula
-Decodificar Código PDF de la cédula de identidad de  Costa Rica para extraer:
-1. cédula
-1. nombre
-1. apellido
-1. sexo
-1. fecha nacimiento
-1. fecha de vencimiento
+Decodificar Código PDF de la cédula de identidad de Costa Rica para extraer:
+1. Cédula
+1. Nombre
+1. Apellido
+1. Sexo
+1. Fecha nacimiento
+1. Fecha de vencimiento
 
 ## 1- Escanear el dorso de la cédula SOLAMENTE el código PDF417
 ![1](https://user-images.githubusercontent.com/43474323/97226766-17679980-179a-11eb-8344-c274b5bdccfb.jpg)
