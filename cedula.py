@@ -127,7 +127,7 @@ def main():
     print("Nombre         :", tico.getNombre())
     print("Sexo           :", tico.getSexo())
     print("F. Nacimiento  :", tico.getFechaNacimiento())
-    print("F. Nacimiento  :", tico.getFechaVencimiento())
+    print("F. Vencimiento :", tico.getFechaVencimiento())
 
 
 # main
