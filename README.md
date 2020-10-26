@@ -1,2 +1,2 @@
 # Decodificar-Cedula
-Decodificar Código PDF de la cédula de Costa Rica
+Decodificar Código PDF de la cédula de identidad de  Costa Rica
