@@ -1,5 +1,5 @@
-# Decodificar-Cedula
-Decodificar Código PDF de la cédula de identidad de Costa Rica para extraer:
+# Cédula de Costa Rica
+Extrae la información contenida en el código PDF de la cédula de identidad de Costa Rica para extraer:
 1. Cédula
 1. Nombre
 1. Apellido
