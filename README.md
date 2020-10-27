@@ -1,5 +1,5 @@
-# Cédula de Costa Rica
-Extrae la información contenida en el código PDF de la cédula de identidad de Costa Rica para extraer:
+# Extraer información de la cédula de Costa Rica
+Extrae la información contenida en el código PDF de la cédula de identidad de Costa Rica. Los datos que se puede leer son los siguientes:
 1. Cédula
 1. Nombre
 1. Apellido
