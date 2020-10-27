@@ -21,6 +21,31 @@ Nos interesa  la matriz de información señalada HASTA EL FINAL(La primer colum
 Los valores extraidos hay que darles formato en Hexadecimal.
 ![3](https://user-images.githubusercontent.com/43474323/97229186-93afac00-179d-11eb-81a0-35e9c55d8ed1.png)
 
+## 4- Lógica 
+La lógica para acceder la información es realizar un XOR entre el arreglo CONSTANTE [0x27, 0x30, 0x04, 0xA0, 0x00, 0x0F, 0x93, 0x12, 0xA0, 0xD1, 0x22, 0xE0, 0x03, 0xD0, 0x00, 0xDf, 0x00], con el arreglo de datos leído de la cédula en formato Hexadecimal.
+El arreglo CONSTANTE es de 17 caracteres y el de datos de la cédula es mayor, por ello debe reiniciarse. 
+
+``` Python
+for byteFromArray in dataFromIdBytes:
+    #Xor array to decrypt is 17 long bytes, reset when counter is 17
+    if index == 17:
+        index = 0
+
+    caracter = xorOperation(keyBytes[index], byteFromArray);
+
+    # From byte to char
+    char_caracter = chr(caracter);
+
+    # MUST include either letters or numbers
+    if re.match("^[a-zA-Z0-9]*$", char_caracter):
+        data += char_caracter
+    else:
+        data += " "
+    // increment index
+    index = index + 1;
+``` 
+
+
 
 ## License
 Feel free to improve it!
