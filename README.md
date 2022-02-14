@@ -36,7 +36,7 @@ for byteFromArray in dataFromIdBytes:
     # From byte to char
     char_caracter = chr(caracter);
 
-    # MUST include either letters or numbers
+    # MUST include both letters and  numbers
     if re.match("^[a-zA-Z0-9]*$", char_caracter):
         data += char_caracter
     else:
