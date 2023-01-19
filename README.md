@@ -47,7 +47,7 @@ for byteFromArray in dataFromIdBytes:
 
 
 
-## License
+ 
 Feel free to improve it!
 
 <BR>
